@@ -1,0 +1,21 @@
+.botao{
+    background-color: var(--cor-laranja);
+    width: 100%;
+    padding: 1.75rem 0;
+    color :var(--cor-branca);
+    text-align: center;
+    font-family: var(--familia-corpo);
+    box-shadow: 10px 10px 30px var(--cor-laranja-transparente);
+    font-size:var(--tamanho-corpo);
+    font-weight: var(--peso-botao);
+    border: none;
+
+}
+
+.botao--alternativo{
+    color: var(--cor-laranja);
+    background-color: unset;
+    box-shadow: none;
+    border: 1px solid var(--cor-laranja);
+    
+}

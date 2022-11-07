@@ -1,0 +1,35 @@
+.input {
+    color:var(--cor-laranja);
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+
+    width:100%;
+    
+    padding: 1.75rem;
+
+    box-sizing: border-box;
+
+    margin-bottom: 1rem;
+
+    border:none;
+
+    background-color: var(--cor-branca);
+
+    box-shadow: 10px 10px 30px var(--cor-preto-transparente);
+}
+
+.input--icone{
+    padding-left: 4.25rem;
+    background-repeat: no-repeat;
+    background-position: left 1.75rem center;
+}
+
+.input--email{
+    background-image: url(../../img/icones/mail.svg);
+}
+
+.input::placeholder{
+    color:var(--cor-laranja);
+    font-family: var(--familia-corpo);
+
+}
